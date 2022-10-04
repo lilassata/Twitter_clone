@@ -1,0 +1,199 @@
+/* 
+Commen
+********************************/
+
+html, body{
+    height: 100%;
+}
+
+.content {
+    max-width: 600px;
+    height: 100%;
+    margin: 0 auto;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    /* border-color: black; */
+}
+/* 
+Post
+********************************/
+
+.post_form {
+    padding: 20px 40px;
+    border-bottom: 1px solid #ccc;
+}
+#bt{
+    background-color: #4a88ee;
+    width: 8vw;
+}
+
+.post_form input {
+    width: 70%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.post_form textarea {
+   width: 70%;
+   padding: 10px;
+   border:1px solid #ccc;
+}
+
+.post ul {
+    padding: 0;
+}
+
+
+
+.posts li {
+    position: relative;
+    display: flex;
+    border-bottom: 1px solid #ccc;
+    padding: 20px 1px;
+    list-style: none;
+    margin-right: 3vw;
+}
+
+.posts li .menu_icon {
+    width: 20px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.posts li .menu {
+    display: none;
+    position: absolute;
+    top: 40px;
+    right: 15px;
+    border: 1px solid #ccc;
+    background-color: white;
+    padding: 5px 15px;
+    font-size: 13px;
+    border-radius: 3px;
+}
+
+.posts li .menu a {
+    text-decoration: none;
+}
+
+.posts li .logo {
+    flex-basis: 15%;
+
+}
+
+.posts li .logo img {
+    width: 3vw;
+
+}
+
+.posts li .name_body {
+    flex-basis: 85%;
+
+}
+
+.posts li .name_body .name {
+   font-weight: bold;
+
+}
+
+.posts li .name_body .datetime {
+    color: grey;
+    float: right;
+}
+
+.posts li .name_body p {
+    text-align: left;
+}
+img.body-image {
+    width: 100%;
+    height: 22vw;
+    margin-left: -2.9vw;
+}
+
+@media screen and (max-width: 500px) {
+    .posps li .name_body .name {
+        font-size: 20px;
+    }
+}
+
+/* 
+Like + Edit buttons
+********************************/
+
+.posts li .like {
+    flex-basis: 15%;
+
+}
+
+.posts li .like img {
+    width: 20px;
+    
+    position: absolute;
+    bottom:0px;
+    left: -2vw;
+}
+#hi {
+    width: 1.3vw;
+    word-spacing: 2px;
+    margin-left: -3%;
+    margin-bottom: 2%;
+}
+/* .lik {
+  
+} */
+
+/* 
+Edit
+********************************/
+.main-header h2{
+    /* style="color:#000608; font-weight:bold; font-family: auto;"> */
+    color: #000608;
+    font-weight: bold;
+    font-family: auto;
+    margin-left: 4.9vw;
+
+}
+
+form.forms{
+    text-align: center;
+}
+input.editbtns {
+    background-color: #4a88ee;
+    /* width: 30%; */
+    color: white;
+    border-radius: 1.2vw;
+   
+    padding: 3%;
+    font-size: 1.5vw;
+    text-align: center;
+}
+.edit_form input {
+    width: 74%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+input.editbtns {
+    width: 10vw;
+    font-size: 16px;
+}
+input.editbtn {
+    width: 9.1vw;
+    background-color: #4a88ee;
+        
+        color: white;
+        border-radius: 1.2vw;
+        font-size: 1.5vw;
+        text-align: center;
+        font-size: 16px;
+}
+.buttons {
+    float: right;
+    margin-right: 11%;
+    font-size: 16px;
+}
+.like{
+    position: absolute;
+}
